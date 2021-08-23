@@ -35,9 +35,6 @@ h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
     color: #575757;
 }
-h1 {
-    font-size: 60px;
-}
 p {
     font-size: 20px;
     color: #828282;
@@ -56,6 +53,9 @@ section.hero-area {
     padding: 30px 0;
     overflow: hidden;
 }
+section.hero-area h1 {
+    font-size: 60px;
+}
 section.hero-area p {
     padding: 30px 0;
 }
@@ -73,10 +73,25 @@ section.hero-area p {
 .action-button a:hover {
     background: linear-gradient(80deg, #FF1E1E -7.64%, #FBA24F 145.94%);
 }
-
 .hero-thumbnail {
     text-align: right;
 }
 .hero-thumbnail img {
     width: 90%;
 }
+/*********About Section*********/
+section.about-area {
+    background-image: url(images/about-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-info h2 {
+    font-size: 40px;
+}
+.about-thumb {
+    text-align: center;
+}
+.about-thumb img {
+    width: 340px;
+}
+
