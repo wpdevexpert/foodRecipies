@@ -27,7 +27,7 @@ body {
     flex-wrap: wrap;
     align-items: center !important;
 }
-.col-md-6 {
+.half-width {
     flex: 0 0 auto;
     width: 50%;
 }
@@ -84,9 +84,15 @@ section.about-area {
     background-image: url(images/about-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50px;
 }
 .about-info h2 {
     font-size: 40px;
+}
+.about-info p {
+    font-size: 18px;
+    margin: 50px 0;
+    padding-bottom: 30px;
 }
 .about-thumb {
     text-align: center;
@@ -94,4 +100,38 @@ section.about-area {
 .about-thumb img {
     width: 340px;
 }
-
+/**********Recipies Section*********/
+section.my-recipies {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.recipies-heading {
+    margin-bottom: 40px;
+}
+.recipies-heading h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.recipies-heading p {
+    width: 50%;
+    margin: 0 auto;
+}
+.recipie-item {
+    flex: 3;
+    margin: 0 25px 20px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+.recipie-item img {
+    border-radius: 20px;
+}
+.recipie-item h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+.recipie-item p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
