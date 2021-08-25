@@ -48,6 +48,7 @@ img {
 .highlight {
     color: #FBA24F;
 }
+
 /*******Hero Section******/
 section.hero-area {
     padding: 30px 0;
@@ -91,7 +92,8 @@ section.about-area {
 }
 .about-info p {
     font-size: 18px;
-    margin: 50px 0;
+    line-height: 28px;
+    margin: 50px 50px 50px 0;
     padding-bottom: 30px;
 }
 .about-thumb {
@@ -134,4 +136,52 @@ section.my-recipies {
 .recipie-item p {
     font-size: 18px;
     margin-bottom: 15px;
+}
+/*******recipie single******/
+section.recipie-single-item {
+    text-align: center;
+}
+section.recipie-single-item h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid;
+}
+section.recipie-single-item ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 20px;
+}
+/********Social Network*********/
+section.social-network {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.social-network .row {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    padding: 65px 0;
+    margin: 50px;
+}
+.social-media {
+    flex: 3;
+}
+.social-media h2 {
+    font-size: 48px;
+}
+/********Footer*********/
+footer.footer-area {
+    background-color: #0B0D17;
+    text-align: center;
+    padding: 50px 0 80px;
+}
+.footer-area h2 {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 40px;
+}
+.footer-area p {
+    font-size: 16px;
+    color: white;
 }
